@@ -1,0 +1,71 @@
+/*Estilos básicos para centralizar e oreganizar o formulário*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0303f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgda(0,0,0,0.1);
+    width: 300px;
+}
+
+.login-container h2{
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.link-cadastro{
+    color: #666666;    
+}
+
+.cadastro-container{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1 10px 40px rgda(0,0,0,0.1);
+    width: 300px;
+}
