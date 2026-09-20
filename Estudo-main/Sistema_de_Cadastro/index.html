@@ -7,6 +7,19 @@
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-    
+    <div class="container">
+        <h1> Cadastro de Alunos </h1>
+        <form id="formCadastro">
+            <input type="text" id="nome" placeholder="Nome de Aluno" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <button type="submit">Cadastro</button>
+        </form>
+        
+        <h2> Lista de Alunos</h2>
+        <ul id="listaAlunos"></ul>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
