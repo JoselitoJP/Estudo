@@ -1,0 +1,44 @@
+/* Reseta margens padão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de cabeçalho */
+.meu-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    width: 100%;
+
+    /* Opcional: Deixar o cabeçalho fixo no topo ao rolar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.meu-cabecalho nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.meu-cabecalho nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Se usar position: fixed, adicione margem no topo do conteúdo principal */
+main {
+    padding-top: 80px;
+}
